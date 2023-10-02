@@ -80,7 +80,7 @@ def index():
             
 
 
-            client = pymongo.MongoClient("mongodb+srv://prashantsingh:prashantsingh@cluster0.tulfezf.mongodb.net/?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://prashantsingh:prashantsingh123@cluster0.tulfezf.mongodb.net/?retryWrites=true&w=majority")
             db = client['review_scrap']
             review_col = db['review_scrap_data']
             review_col.insert_many(reviews)
